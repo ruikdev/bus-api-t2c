@@ -8,3 +8,7 @@ La fonctionnalité de récupération de la liste des ID d'arrêt a été faite p
 
 
 https://ruikdev.github.io/
+
+
+exemple d'utilisation:
+https://github.com/ruikdev/horary-t2c/
