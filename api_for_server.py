@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, send_file
 import requests
 from bs4 import BeautifulSoup
 import os
@@ -134,6 +134,13 @@ def get_horaires(stop_id):
         "departures": resultats,
         "perturbation": perturbation
     })
+
+
+@app.route('/bdd/listarret/')
+def json_download():
+    with open('t2c_data.json', 'r') as fichier:
+        donnees = json.load(fichier)
+    return jsonify(donnees)
 
 
 if __name__ == '__main__':
