@@ -7,7 +7,7 @@ Utilise le système de QR code mis en place par la T2C
 La fonctionnalité de récupération de la liste des ID d'arrêt a été faite par https://github.com/Oxmel/t2c-harvester
 
 
-https://ruikdev.github.io/
+Ip de l'API: 88.151.197.193:2001
 
 
 exemple d'utilisation:
